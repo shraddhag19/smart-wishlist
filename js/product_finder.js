@@ -4,8 +4,8 @@ const searchBtn = document.getElementById("search-btn");
 const searchInput = document.getElementById("search-input");
 const resultsContainer = document.getElementById("results-container");
 
-const apiKey = "AIzaSyAODQQN4Wi8YLN0F721Ng_jNZB9VnSA9As"; // Replace with your actual API key
-const cx = "b744947f886624e77";             // Replace with your actual CSE ID
+const apiKey = ""; // Replace with your actual API key
+const cx = "";             // Replace with your actual CSE ID
 
 searchBtn.addEventListener("click", () => {
   const query = searchInput.value.trim();
